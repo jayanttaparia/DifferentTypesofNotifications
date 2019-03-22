@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/simpleNot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="75dp"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="buttonClicked"
+        android:padding="5dp"
+        android:text="SIMPLE NOTIFICATION"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/bigTextNot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="buttonClicked"
+        android:padding="5dp"
+        android:text="BIGTEXTSTYLE NOTIFICATION"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/bigPictureNot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="buttonClicked"
+        android:padding="5dp"
+        android:text="BIGPICTURESTYLE NOTIFICATION"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/inboxNot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="buttonClicked"
+        android:padding="5dp"
+        android:text="INBOXSTYLE NOTIFICATION"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/messagingNot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="buttonClicked"
+        android:padding="5dp"
+        android:text="MESSAGINGSTYLE NOTIFICATION"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/actionNot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="buttonClicked"
+        android:padding="5dp"
+        android:text="NOTIFICATION ACTIONS"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
